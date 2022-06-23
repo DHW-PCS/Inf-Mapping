@@ -18,10 +18,10 @@ Feel free to add a variety of waypoints, but remember to make each point have so
 
 ## How to use
 
-- VoxelMap
+### VoxelMap
 Somethings... 
-- JourneyMap
+### JourneyMap
 Somethings...
-- XaerosMinimap
+### XaerosMinimap
 Go to the corresponding folder and download the Multiplayer_inf.dhwpcs.org" folder and move the file to your minecraft folder. If you don't have version isolation on, the path is usually "/.minecraft/XaeroWaypoints/". If version isolation is turned on, the path is generally "/.minecraft/versions/yourgameversion/XaeroWaypoints/".
 In particular, note that you may need to change the domain name part of the folder name to accommodate your client. For example, if the domain name you used when you joined inf was "example.exp", then you need to change the "domain" in the folder name to "example.exp ".
