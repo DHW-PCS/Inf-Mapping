@@ -10,8 +10,18 @@ Waypoint set in different mods will be stored in different folders
 - JourneyMap
 - XaerosMinimap
 
-## 命名规范
+## Naming convention
 
-每个路径点的位置尽量准确, 尤其是 y 坐标, 在地狱的路径点若隶属于地狱交通, 请确保其名称以 `-地狱交通`结尾
+Make sure that the location of each waypoint is as accurate as possible, especially the y-coordinate, and that waypoints in the nether that are part of the nether traffic system have names ending in `-地狱交通'.
 
-欢迎加入各式各样的路径点, 但是要记得使每个点都具有一定的导航价值
+Feel free to add a variety of waypoints, but remember to make each point have some using value.
+
+## How to use
+
+- VoxelMap
+Somethings... 
+- JourneyMap
+Somethings...
+- XaerosMinimap
+Go to the corresponding folder and download the Multiplayer_inf.dhwpcs.org" folder and move the file to your minecraft folder. If you don't have version isolation on, the path is usually "/.minecraft/XaeroWaypoints/". If version isolation is turned on, the path is generally "/.minecraft/versions/yourgameversion/XaeroWaypoints/".
+In particular, note that you may need to change the domain name part of the folder name to accommodate your client. For example, if the domain name you used when you joined inf was "example.exp", then you need to change the "domain" in the folder name to "example.exp ".
