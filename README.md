@@ -8,6 +8,7 @@ Waypoint set in different mods will be stored in different folders
 
 - VoxelMap
 - JourneyMap
+- XaerosMinimap
 
 ## 命名规范
 
