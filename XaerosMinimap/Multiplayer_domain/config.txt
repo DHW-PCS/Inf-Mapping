@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 //waypoints config options
 usingMultiworldDetection:false
 ignoreServerLevelId:false
@@ -9,3 +10,16 @@ sortReversed:false
 
 //other config options
 ignoreHeightmaps:false
+=======
+//waypoints config options
+usingMultiworldDetection:false
+ignoreServerLevelId:false
+defaultMultiworldId:mw-6,1,4
+teleportationEnabled:true
+usingDefaultTeleportCommand:true
+sortType:NONE
+sortReversed:false
+
+//other config options
+ignoreHeightmaps:false
+>>>>>>> 1fdb4d72723437a0d5ab18bcb7c6c2fc36ccf123

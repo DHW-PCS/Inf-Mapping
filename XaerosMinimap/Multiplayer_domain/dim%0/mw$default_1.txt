@@ -1,6 +1,13 @@
 #
 #waypoint:name:initials:x:y:z:color:disabled:type:set:rotate_on_tp:tp_yaw:global
 #
+<<<<<<< HEAD
+waypoint:sjfh的据点:S:425:63:-3838:4:false:0:gui.xaero_default:false:0:false
+waypoint:垭西兰:垭:320:63:-1028:3:false:0:gui.xaero_default:false:0:false
+waypoint:cy的主世界猪人塔:C:-45:185:-592:5:false:0:gui.xaero_default:false:0:false
+waypoint:梦渊:梦:720:70:677:2:false:0:gui.xaero_default:false:0:false
+=======
+>>>>>>> 1fdb4d72723437a0d5ab18bcb7c6c2fc36ccf123
 waypoint:冰船赛道2:冰:892:78:1703:11:false:0:gui.xaero_default:false:0:false
 waypoint:冰船赛道:冰:909:76:1363:5:false:0:gui.xaero_default:false:0:false
 waypoint:刷冰机:刷:704:84:968:13:false:0:gui.xaero_default:false:0:false
