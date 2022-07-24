@@ -1,6 +1,13 @@
 #
 #waypoint:name:initials:x:y:z:color:disabled:type:set:rotate_on_tp:tp_yaw:global
 #
+waypoint:袭击塔-地狱交通:袭:482:128:-239:10:false:0:gui.xaero_default:false:0:false
+waypoint:沙漠刷怪塔-地狱交通:沙:263:129:-62:4:false:0:gui.xaero_default:false:0:false
+waypoint:主世界伪和平开关:主:291:128:-248:10:false:0:gui.xaero_default:false:0:false
+waypoint:猪人塔:猪:-145:247:254:10:false:0:gui.xaero_default:false:0:false
+waypoint:him猪人塔:H:263:129:1384:10:false:0:gui.xaero_default:false:0:false
+waypoint:him地狱大厅:H:129:128:1320:11:false:0:gui.xaero_default:false:0:false
+waypoint:凋零骷髅塔:凋:-779:128:901:10:false:0:gui.xaero_default:false:0:false
 waypoint:sj家-地狱交通:S:49:128:-494:14:false:0:gui.xaero_default:false:0:false
 waypoint:kelpland-地狱交通:K:39:131:-128:6:false:0:gui.xaero_default:false:0:false
 waypoint:cy家-地狱交通:C:-20:128:-52:13:false:0:gui.xaero_default:false:0:false
