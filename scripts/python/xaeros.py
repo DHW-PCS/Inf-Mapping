@@ -75,7 +75,7 @@ def read_all():
     data["waypoints"] = list(
         map(lambda x: x.__dict__, join_list(data["waypoints"], wplist)))
     with open(os.path.join(dir, "data.json"), "w") as f:
-        f.write(json.dumps(data))
+        f.write(json.dumps(data, ensure_ascii=False))
 
 
 def write_all():
