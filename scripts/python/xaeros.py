@@ -1,8 +1,21 @@
-from lib import Waypoint
+import json
+from lib import *
+import os
 
-# overworld: default_0
+# overworld: dim%0
 # nether: default_-1
 # end: default_1
+dims = {
+    "overworld": "dim%0",
+    "nether": "dim%-1",
+    "end": "dim%1"
+}
+HEADER = """#
+#waypoint:name:initials:x:y:z:color:disabled:type:set:rotate_on_tp:tp_yaw:global
+#
+"""
+dir = os.path.dirname(__file__)
+
 
 def load_str(raw_str: str, dim: str) -> Waypoint:
     raw_str = str(raw_str).strip()
@@ -11,21 +24,76 @@ def load_str(raw_str: str, dim: str) -> Waypoint:
     str_list.pop(0)  # "waypoint"
     name = str_list.pop(0)
     abbr = str_list.pop(0)
-    x = round(float(str_list.pop(0)))
-    y = round(float(str_list.pop(0)))
-    z = round(float(str_list.pop(0)))
-    color = str_list.pop(0)
-    disabled = str_list.pop(0)
-    type = str_list.pop(0)
-    set = str_list.pop(0)
-    rotate_on_tp = str_list.pop(0)
-    tp_yaw = str_list.pop(0)
-    global_ = str_list.pop(0)
-    return Waypoint((x, y, z), dim, name)
+    try:
+        x = round(float(str_list.pop(0)))
+    except:
+        x = 0
+    try:
+        y = round(float(str_list.pop(0)))
+    except:
+        y = 0
+    try:
+        z = round(float(str_list.pop(0)))
+    except:
+        z = 0
+    xaeros_opt = {}
+    xaeros_opt["color"] = str_list.pop(0)
+    xaeros_opt["disabled"] = str_list.pop(0)
+    xaeros_opt["type"] = str_list.pop(0)
+    xaeros_opt["set"] = str_list.pop(0)
+    xaeros_opt["rotate_on_tp"] = str_list.pop(0)
+    xaeros_opt["tp_yaw"] = str_list.pop(0)
+    xaeros_opt["global"] = str_list.pop(0)
+    return Waypoint(pos=(x, y, z), dim=dim, name=name, xaeros_opt=xaeros_opt)
+
 
 def dump_str(waypoint: Waypoint) -> str:
-    return f"waypoint:{Waypoint.name}:{Waypoint.name[0]}:{Waypoint.x}:{Waypoint.y}:{Waypoint.z}:1:false:0:gui.xaero_default:false:0:false"
+    xaeros_opt = {
+        "color": "1",
+        "disabled": "false",
+        "type": "0",
+        "set": "gui.xaero_default",
+        "rotate_on_tp": "false",
+        "tp_yaw": "0",
+        "global": "false"
+    }
+    if "xaeros_opt" in waypoint.opts:
+        for opt in waypoint.opts["xaeros_opt"]:
+            xaeros_opt[opt] = waypoint.opts["xaeros_opt"][opt]
+    return f"waypoint:{waypoint.name}:{waypoint.name[0]}:{waypoint.x}:{waypoint.y}:{waypoint.z}:{xaeros_opt['color']}:{xaeros_opt['disabled']}:{xaeros_opt['type']}:{xaeros_opt['set']}:{xaeros_opt['rotate_on_tp']}:{xaeros_opt['tp_yaw']}:{xaeros_opt['global']}"
 
-HEADER = """#
-#waypoint:name:initials:x:y:z:color:disabled:type:set:rotate_on_tp:tp_yaw:global
-#"""
+
+def read_all():
+    wplist = []
+    with open(os.path.join(dir, "..", "..", "data", "data.json"), "r") as f:
+        data = json.loads(f.read())
+    for dim in dims:
+        if os.path.isdir(os.path.join(dir, dims[dim])):
+            with open(os.path.join(dir, dims[dim], "mw$default_1.txt"), "r") as f:
+                raw_list = f.read().split(HEADER)[-1].strip().split("\n")
+            wplist.extend(map(lambda x: load_str(x, dim).__dict__, raw_list))
+    data["waypoints"] = list(
+        map(lambda x: x.__dict__, join_list(data["waypoints"], wplist)))
+    with open(os.path.join(dir, "data.json"), "w") as f:
+        f.write(json.dumps(data))
+
+
+def write_all():
+    wpdict = {
+        "overworld": [],
+        "nether": [],
+        "end": []
+    }
+    with open(os.path.join(dir, "..", "..", "data", "data.json"), "r") as f:
+        data = json.loads(f.read())
+    for waypoint in data["waypoints"]:
+        wpdict[waypoint["dim"]].append(waypoint)
+    build_dir = os.path.join(dir, "..", "..", "build", "Xaerosmap")
+    if not os.path.exists(build_dir):
+        os.mkdir(build_dir)
+    for dim in dims:
+        if len(wpdict[dim]) > 0:
+            if not os.path.exists(os.path.join(build_dir, dims[dim])):
+                os.mkdir(os.path.join(build_dir, dims[dim]))
+            with open(os.path.join(build_dir, dims[dim], "mw$default_1.txt"), "w") as f:
+                f.write(HEADER + "\n".join(map(lambda x: dump_str(Waypoint(**x)), wpdict[dim])) + "\n")
