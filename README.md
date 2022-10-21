@@ -4,7 +4,32 @@ Waypoint set in DHW-Inf for different map mods
 
 Waypoint set in different mods will be stored in different folders
 
-*Script for converting different map file to be added*
+## Inf Map `waypoint.json`
+
+```json
+{
+    "overworld": [
+        {
+            "name": "name",
+            "x": 111,
+            "y": 222,
+            "z": 333,
+            "dim": "overworld",
+            "desc": "Description",
+            "opts": {
+                "xaerosmap": {
+                    "opt1": "value1"
+                },
+                "journeymap": {
+                    "opt1": "value1"
+                }
+            }
+        }
+    ],
+    "nether": [],
+    "end": []
+}
+```
 
 ## Supporting mods
 
@@ -22,7 +47,7 @@ Feel free to add a variety of waypoints, but remember to keep each point meaning
 
 ### VoxelMap
 
-Somethings... 
+Somethings...
 
 ### JourneyMap
 
@@ -33,3 +58,7 @@ Somethings...
 Go to the corresponding folder and download the Multiplayer_domain" folder and move the file to your minecraft folder. If you don't have version isolation on, the path is usually "/.minecraft/XaeroWaypoints/". Otherwise, the path is generally "/.minecraft/versions/yourgameversion/XaeroWaypoints/".
 
 In particular, note that you may need to change the domain name part of the folder name to accommodate your client. For example, if the domain name you used to join Inf was "example.exp", then you need to change the "domain" in the folder name to "example.exp".
+
+## TODO
+
+Add support for more than just python🤮

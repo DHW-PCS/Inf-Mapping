@@ -1,5 +1,8 @@
 from lib import Waypoint
 
+# overworld: default_0
+# nether: default_-1
+# end: default_1
 
 def load_str(raw_str: str, dim: str) -> Waypoint:
     raw_str = str(raw_str).strip()
