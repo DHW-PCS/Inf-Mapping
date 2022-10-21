@@ -8,7 +8,7 @@ Waypoint set in different mods will be stored in different folders
 
 ```json
 {
-    "overworld": [
+    "waypoints": [
         {
             "name": "name",
             "x": 111,
@@ -25,9 +25,7 @@ Waypoint set in different mods will be stored in different folders
                 }
             }
         }
-    ],
-    "nether": [],
-    "end": []
+    ]
 }
 ```
 
