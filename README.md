@@ -17,10 +17,10 @@ Waypoint set in different mods will be stored in different folders
             "dim": "overworld",
             "desc": "Description",
             "opts": {
-                "xaerosmap": {
+                "xaeros_opt": {
                     "opt1": "value1"
                 },
-                "journeymap": {
+                "journey_opt": {
                     "opt1": "value1"
                 }
             }
