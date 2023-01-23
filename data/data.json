@@ -12,7 +12,17 @@
             ],
             "dim": "overworld",
             "desc": "",
-            "opts": {}
+            "opts": {
+                "xaeros_opt": {
+                    "color": "15",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "0"
+                }
+            }
         },
         {
             "x": 309,
@@ -26,7 +36,17 @@
             ],
             "dim": "overworld",
             "desc": "",
-            "opts": {}
+            "opts": {
+                "xaeros_opt": {
+                    "color": "15",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "0"
+                }
+            }
         },
         {
             "x": 1837,
@@ -40,7 +60,17 @@
             ],
             "dim": "overworld",
             "desc": "",
-            "opts": {}
+            "opts": {
+                "xaeros_opt": {
+                    "color": "6",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "0"
+                }
+            }
         },
         {
             "x": 224,
@@ -54,7 +84,17 @@
             ],
             "dim": "overworld",
             "desc": "",
-            "opts": {}
+            "opts": {
+                "xaeros_opt": {
+                    "color": "6",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "0"
+                }
+            }
         },
         {
             "x": 1052,
@@ -68,7 +108,17 @@
             ],
             "dim": "overworld",
             "desc": "",
-            "opts": {}
+            "opts": {
+                "xaeros_opt": {
+                    "color": "10",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "0"
+                }
+            }
         },
         {
             "x": 1055,
@@ -82,7 +132,17 @@
             ],
             "dim": "overworld",
             "desc": "",
-            "opts": {}
+            "opts": {
+                "xaeros_opt": {
+                    "color": "10",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "0"
+                }
+            }
         },
         {
             "x": 1065,
@@ -96,7 +156,17 @@
             ],
             "dim": "overworld",
             "desc": "",
-            "opts": {}
+            "opts": {
+                "xaeros_opt": {
+                    "color": "10",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "0"
+                }
+            }
         },
         {
             "x": 1036,
@@ -110,7 +180,17 @@
             ],
             "dim": "overworld",
             "desc": "",
-            "opts": {}
+            "opts": {
+                "xaeros_opt": {
+                    "color": "10",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "0"
+                }
+            }
         },
         {
             "x": 1000,
@@ -124,7 +204,17 @@
             ],
             "dim": "overworld",
             "desc": "",
-            "opts": {}
+            "opts": {
+                "xaeros_opt": {
+                    "color": "10",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "0"
+                }
+            }
         },
         {
             "x": 1000,
@@ -138,7 +228,17 @@
             ],
             "dim": "overworld",
             "desc": "",
-            "opts": {}
+            "opts": {
+                "xaeros_opt": {
+                    "color": "10",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "0"
+                }
+            }
         },
         {
             "x": 1000,
@@ -152,7 +252,17 @@
             ],
             "dim": "overworld",
             "desc": "",
-            "opts": {}
+            "opts": {
+                "xaeros_opt": {
+                    "color": "10",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "0"
+                }
+            }
         },
         {
             "x": 984,
@@ -166,7 +276,17 @@
             ],
             "dim": "overworld",
             "desc": "",
-            "opts": {}
+            "opts": {
+                "xaeros_opt": {
+                    "color": "10",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "0"
+                }
+            }
         },
         {
             "x": 967,
@@ -180,7 +300,17 @@
             ],
             "dim": "overworld",
             "desc": "",
-            "opts": {}
+            "opts": {
+                "xaeros_opt": {
+                    "color": "10",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "0"
+                }
+            }
         },
         {
             "x": 967,
@@ -194,7 +324,17 @@
             ],
             "dim": "overworld",
             "desc": "",
-            "opts": {}
+            "opts": {
+                "xaeros_opt": {
+                    "color": "10",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "0"
+                }
+            }
         },
         {
             "x": 988,
@@ -208,7 +348,17 @@
             ],
             "dim": "overworld",
             "desc": "",
-            "opts": {}
+            "opts": {
+                "xaeros_opt": {
+                    "color": "10",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "0"
+                }
+            }
         },
         {
             "x": 996,
@@ -222,7 +372,17 @@
             ],
             "dim": "overworld",
             "desc": "",
-            "opts": {}
+            "opts": {
+                "xaeros_opt": {
+                    "color": "10",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "0"
+                }
+            }
         },
         {
             "x": 1011,
@@ -236,7 +396,17 @@
             ],
             "dim": "overworld",
             "desc": "",
-            "opts": {}
+            "opts": {
+                "xaeros_opt": {
+                    "color": "10",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "0"
+                }
+            }
         },
         {
             "x": 1000,
@@ -250,7 +420,17 @@
             ],
             "dim": "overworld",
             "desc": "",
-            "opts": {}
+            "opts": {
+                "xaeros_opt": {
+                    "color": "13",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "0"
+                }
+            }
         },
         {
             "x": 425,
@@ -264,7 +444,17 @@
             ],
             "dim": "overworld",
             "desc": "",
-            "opts": {}
+            "opts": {
+                "xaeros_opt": {
+                    "color": "15",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "0"
+                }
+            }
         },
         {
             "x": 320,
@@ -278,7 +468,17 @@
             ],
             "dim": "overworld",
             "desc": "",
-            "opts": {}
+            "opts": {
+                "xaeros_opt": {
+                    "color": "11",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "0"
+                }
+            }
         },
         {
             "x": -45,
@@ -292,7 +492,17 @@
             ],
             "dim": "overworld",
             "desc": "",
-            "opts": {}
+            "opts": {
+                "xaeros_opt": {
+                    "color": "10",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "0"
+                }
+            }
         },
         {
             "x": 720,
@@ -306,7 +516,17 @@
             ],
             "dim": "overworld",
             "desc": "",
-            "opts": {}
+            "opts": {
+                "xaeros_opt": {
+                    "color": "11",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "0"
+                }
+            }
         },
         {
             "x": 892,
@@ -320,7 +540,17 @@
             ],
             "dim": "overworld",
             "desc": "",
-            "opts": {}
+            "opts": {
+                "xaeros_opt": {
+                    "color": "6",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "0"
+                }
+            }
         },
         {
             "x": 909,
@@ -334,7 +564,17 @@
             ],
             "dim": "overworld",
             "desc": "",
-            "opts": {}
+            "opts": {
+                "xaeros_opt": {
+                    "color": "6",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "0"
+                }
+            }
         },
         {
             "x": 704,
@@ -348,7 +588,17 @@
             ],
             "dim": "overworld",
             "desc": "",
-            "opts": {}
+            "opts": {
+                "xaeros_opt": {
+                    "color": "10",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "0"
+                }
+            }
         },
         {
             "x": 701,
@@ -362,7 +612,17 @@
             ],
             "dim": "overworld",
             "desc": "",
-            "opts": {}
+            "opts": {
+                "xaeros_opt": {
+                    "color": "10",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "0"
+                }
+            }
         },
         {
             "x": 571,
@@ -376,7 +636,17 @@
             ],
             "dim": "overworld",
             "desc": "",
-            "opts": {}
+            "opts": {
+                "xaeros_opt": {
+                    "color": "10",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "0"
+                }
+            }
         },
         {
             "x": 210,
@@ -390,7 +660,17 @@
             ],
             "dim": "overworld",
             "desc": "",
-            "opts": {}
+            "opts": {
+                "xaeros_opt": {
+                    "color": "11",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "0"
+                }
+            }
         },
         {
             "x": -531,
@@ -404,7 +684,17 @@
             ],
             "dim": "overworld",
             "desc": "",
-            "opts": {}
+            "opts": {
+                "xaeros_opt": {
+                    "color": "11",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "0"
+                }
+            }
         },
         {
             "x": -801,
@@ -418,7 +708,17 @@
             ],
             "dim": "overworld",
             "desc": "",
-            "opts": {}
+            "opts": {
+                "xaeros_opt": {
+                    "color": "11",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "0"
+                }
+            }
         },
         {
             "x": -179,
@@ -432,7 +732,17 @@
             ],
             "dim": "overworld",
             "desc": "",
-            "opts": {}
+            "opts": {
+                "xaeros_opt": {
+                    "color": "10",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "0"
+                }
+            }
         },
         {
             "x": -285,
@@ -446,7 +756,17 @@
             ],
             "dim": "overworld",
             "desc": "",
-            "opts": {}
+            "opts": {
+                "xaeros_opt": {
+                    "color": "10",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "0"
+                }
+            }
         },
         {
             "x": 531,
@@ -460,7 +780,17 @@
             ],
             "dim": "overworld",
             "desc": "",
-            "opts": {}
+            "opts": {
+                "xaeros_opt": {
+                    "color": "10",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "0"
+                }
+            }
         },
         {
             "x": 2129,
@@ -474,7 +804,17 @@
             ],
             "dim": "overworld",
             "desc": "",
-            "opts": {}
+            "opts": {
+                "xaeros_opt": {
+                    "color": "10",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "0"
+                }
+            }
         },
         {
             "x": 1547,
@@ -488,7 +828,17 @@
             ],
             "dim": "overworld",
             "desc": "",
-            "opts": {}
+            "opts": {
+                "xaeros_opt": {
+                    "color": "11",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "0"
+                }
+            }
         },
         {
             "x": 624,
@@ -502,7 +852,17 @@
             ],
             "dim": "overworld",
             "desc": "",
-            "opts": {}
+            "opts": {
+                "xaeros_opt": {
+                    "color": "11",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "0"
+                }
+            }
         },
         {
             "x": 397,
@@ -516,7 +876,17 @@
             ],
             "dim": "overworld",
             "desc": "",
-            "opts": {}
+            "opts": {
+                "xaeros_opt": {
+                    "color": "11",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "0"
+                }
+            }
         },
         {
             "x": -452,
@@ -530,7 +900,17 @@
             ],
             "dim": "overworld",
             "desc": "",
-            "opts": {}
+            "opts": {
+                "xaeros_opt": {
+                    "color": "6",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "0"
+                }
+            }
         },
         {
             "x": 482,
@@ -544,7 +924,17 @@
             ],
             "dim": "nether",
             "desc": "",
-            "opts": {}
+            "opts": {
+                "xaeros_opt": {
+                    "color": "10",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "false"
+                }
+            }
         },
         {
             "x": 263,
@@ -558,7 +948,17 @@
             ],
             "dim": "nether",
             "desc": "",
-            "opts": {}
+            "opts": {
+                "xaeros_opt": {
+                    "color": "4",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "false"
+                }
+            }
         },
         {
             "x": 291,
@@ -572,7 +972,17 @@
             ],
             "dim": "nether",
             "desc": "",
-            "opts": {}
+            "opts": {
+                "xaeros_opt": {
+                    "color": "10",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "false"
+                }
+            }
         },
         {
             "x": -145,
@@ -586,7 +996,17 @@
             ],
             "dim": "nether",
             "desc": "",
-            "opts": {}
+            "opts": {
+                "xaeros_opt": {
+                    "color": "10",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "false"
+                }
+            }
         },
         {
             "x": 263,
@@ -600,7 +1020,17 @@
             ],
             "dim": "nether",
             "desc": "",
-            "opts": {}
+            "opts": {
+                "xaeros_opt": {
+                    "color": "10",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "false"
+                }
+            }
         },
         {
             "x": 129,
@@ -614,7 +1044,17 @@
             ],
             "dim": "nether",
             "desc": "",
-            "opts": {}
+            "opts": {
+                "xaeros_opt": {
+                    "color": "11",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "false"
+                }
+            }
         },
         {
             "x": -779,
@@ -628,7 +1068,17 @@
             ],
             "dim": "nether",
             "desc": "",
-            "opts": {}
+            "opts": {
+                "xaeros_opt": {
+                    "color": "10",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "false"
+                }
+            }
         },
         {
             "x": 49,
@@ -642,7 +1092,17 @@
             ],
             "dim": "nether",
             "desc": "",
-            "opts": {}
+            "opts": {
+                "xaeros_opt": {
+                    "color": "14",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "false"
+                }
+            }
         },
         {
             "x": 39,
@@ -656,7 +1116,17 @@
             ],
             "dim": "nether",
             "desc": "",
-            "opts": {}
+            "opts": {
+                "xaeros_opt": {
+                    "color": "6",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "false"
+                }
+            }
         },
         {
             "x": -20,
@@ -670,7 +1140,17 @@
             ],
             "dim": "nether",
             "desc": "",
-            "opts": {}
+            "opts": {
+                "xaeros_opt": {
+                    "color": "13",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "false"
+                }
+            }
         },
         {
             "x": -136,
@@ -684,7 +1164,17 @@
             ],
             "dim": "nether",
             "desc": "",
-            "opts": {}
+            "opts": {
+                "xaeros_opt": {
+                    "color": "7",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "false"
+                }
+            }
         },
         {
             "x": -105,
@@ -698,7 +1188,17 @@
             ],
             "dim": "nether",
             "desc": "",
-            "opts": {}
+            "opts": {
+                "xaeros_opt": {
+                    "color": "1",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "false"
+                }
+            }
         },
         {
             "x": -45,
@@ -712,7 +1212,737 @@
             ],
             "dim": "nether",
             "desc": "",
-            "opts": {}
+            "opts": {
+                "xaeros_opt": {
+                    "color": "8",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "false"
+                }
+            }
+        },
+        {
+            "x": -79,
+            "y": 73,
+            "z": -3518,
+            "name": "动物园工地",
+            "pos": [
+                -79,
+                73,
+                -3518
+            ],
+            "dim": "overworld",
+            "desc": "",
+            "opts": {
+                "xaeros_opt": {
+                    "color": "3",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "0"
+                }
+            }
+        },
+        {
+            "x": -1020,
+            "y": 120,
+            "z": -614,
+            "name": "安全屋",
+            "pos": [
+                -1020,
+                120,
+                -614
+            ],
+            "dim": "overworld",
+            "desc": "",
+            "opts": {
+                "xaeros_opt": {
+                    "color": "0",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "0"
+                }
+            }
+        },
+        {
+            "x": 785,
+            "y": 64,
+            "z": 895,
+            "name": "Shared Location",
+            "pos": [
+                785,
+                64,
+                895
+            ],
+            "dim": "overworld",
+            "desc": "",
+            "opts": {
+                "xaeros_opt": {
+                    "color": "2",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "0"
+                }
+            }
+        },
+        {
+            "x": -94,
+            "y": 67,
+            "z": -3504,
+            "name": "动物园",
+            "pos": [
+                -94,
+                67,
+                -3504
+            ],
+            "dim": "overworld",
+            "desc": "",
+            "opts": {
+                "xaeros_opt": {
+                    "color": "11",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "0"
+                }
+            }
+        },
+        {
+            "x": -290,
+            "y": 70,
+            "z": -3185,
+            "name": "大鹅家",
+            "pos": [
+                -290,
+                70,
+                -3185
+            ],
+            "dim": "overworld",
+            "desc": "",
+            "opts": {
+                "xaeros_opt": {
+                    "color": "11",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "0"
+                }
+            }
+        },
+        {
+            "x": 1651,
+            "y": 62,
+            "z": 10684,
+            "name": "海龟岛",
+            "pos": [
+                1651,
+                62,
+                10684
+            ],
+            "dim": "overworld",
+            "desc": "",
+            "opts": {
+                "xaeros_opt": {
+                    "color": "14",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "0"
+                }
+            }
+        },
+        {
+            "x": -520,
+            "y": 64,
+            "z": 159,
+            "name": "gui.xaero_deathpoint_old",
+            "pos": [
+                -520,
+                64,
+                159
+            ],
+            "dim": "overworld",
+            "desc": "",
+            "opts": {
+                "xaeros_opt": {
+                    "color": "0",
+                    "disabled": "false",
+                    "type": "2",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "1"
+                }
+            }
+        },
+        {
+            "x": -540,
+            "y": 71,
+            "z": 176,
+            "name": "gui.xaero_deathpoint_old",
+            "pos": [
+                -540,
+                71,
+                176
+            ],
+            "dim": "overworld",
+            "desc": "",
+            "opts": {
+                "xaeros_opt": {
+                    "color": "0",
+                    "disabled": "false",
+                    "type": "2",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "1"
+                }
+            }
+        },
+        {
+            "x": -534,
+            "y": 78,
+            "z": 159,
+            "name": "gui.xaero_deathpoint_old",
+            "pos": [
+                -534,
+                78,
+                159
+            ],
+            "dim": "overworld",
+            "desc": "",
+            "opts": {
+                "xaeros_opt": {
+                    "color": "0",
+                    "disabled": "false",
+                    "type": "2",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "1"
+                }
+            }
+        },
+        {
+            "x": -805,
+            "y": 67,
+            "z": 1468,
+            "name": "天策",
+            "pos": [
+                -805,
+                67,
+                1468
+            ],
+            "dim": "overworld",
+            "desc": "",
+            "opts": {
+                "xaeros_opt": {
+                    "color": "6",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "0"
+                }
+            }
+        },
+        {
+            "x": -721,
+            "y": 89,
+            "z": -360,
+            "name": "Toilet",
+            "pos": [
+                -721,
+                89,
+                -360
+            ],
+            "dim": "overworld",
+            "desc": "",
+            "opts": {
+                "xaeros_opt": {
+                    "color": "6",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "0"
+                }
+            }
+        },
+        {
+            "x": -326,
+            "y": 65,
+            "z": 1326,
+            "name": "临漪",
+            "pos": [
+                -326,
+                65,
+                1326
+            ],
+            "dim": "overworld",
+            "desc": "",
+            "opts": {
+                "xaeros_opt": {
+                    "color": "6",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "0"
+                }
+            }
+        },
+        {
+            "x": 1111,
+            "y": 71,
+            "z": 1043,
+            "name": "Wu_Nao 聚居地",
+            "pos": [
+                1111,
+                71,
+                1043
+            ],
+            "dim": "overworld",
+            "desc": "",
+            "opts": {
+                "xaeros_opt": {
+                    "color": "15",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "0"
+                }
+            }
+        },
+        {
+            "x": 4263,
+            "y": 79,
+            "z": -1462,
+            "name": "哨站",
+            "pos": [
+                4263,
+                79,
+                -1462
+            ],
+            "dim": "overworld",
+            "desc": "",
+            "opts": {
+                "xaeros_opt": {
+                    "color": "10",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "0"
+                }
+            }
+        },
+        {
+            "x": -101,
+            "y": 128,
+            "z": 184,
+            "name": "天策-地狱交通",
+            "pos": [
+                -101,
+                128,
+                184
+            ],
+            "dim": "nether",
+            "desc": "",
+            "opts": {
+                "xaeros_opt": {
+                    "color": "4",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "false"
+                }
+            }
+        },
+        {
+            "x": 139,
+            "y": 129,
+            "z": 130,
+            "name": "Wu_Nao 家",
+            "pos": [
+                139,
+                129,
+                130
+            ],
+            "dim": "nether",
+            "desc": "",
+            "opts": {
+                "xaeros_opt": {
+                    "color": "15",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "false"
+                }
+            }
+        },
+        {
+            "x": 68,
+            "y": 128,
+            "z": 155,
+            "name": "要塞-地狱交通",
+            "pos": [
+                68,
+                128,
+                155
+            ],
+            "dim": "nether",
+            "desc": "",
+            "opts": {
+                "xaeros_opt": {
+                    "color": "10",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "false"
+                }
+            }
+        },
+        {
+            "x": 531,
+            "y": 128,
+            "z": -183,
+            "name": "哨站-地狱交通",
+            "pos": [
+                531,
+                128,
+                -183
+            ],
+            "dim": "nether",
+            "desc": "",
+            "opts": {
+                "xaeros_opt": {
+                    "color": "10",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "false"
+                }
+            }
+        },
+        {
+            "x": 264,
+            "y": 228,
+            "z": 1423,
+            "name": "Him 家猪肉塔",
+            "pos": [
+                264,
+                228,
+                1423
+            ],
+            "dim": "nether",
+            "desc": "",
+            "opts": {
+                "xaeros_opt": {
+                    "color": "10",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "false"
+                }
+            }
+        },
+        {
+            "x": 299,
+            "y": 228,
+            "z": 1384,
+            "name": "Him 家猪人塔",
+            "pos": [
+                299,
+                228,
+                1384
+            ],
+            "dim": "nether",
+            "desc": "",
+            "opts": {
+                "xaeros_opt": {
+                    "color": "10",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "false"
+                }
+            }
+        },
+        {
+            "x": -91,
+            "y": 75,
+            "z": -29,
+            "name": "Portal #11",
+            "pos": [
+                -91,
+                75,
+                -29
+            ],
+            "dim": "end",
+            "desc": "",
+            "opts": {
+                "xaeros_opt": {
+                    "color": "11",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "false"
+                }
+            }
+        },
+        {
+            "x": -29,
+            "y": 75,
+            "z": -91,
+            "name": "Portal #14",
+            "pos": [
+                -29,
+                75,
+                -91
+            ],
+            "dim": "end",
+            "desc": "",
+            "opts": {
+                "xaeros_opt": {
+                    "color": "11",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "false"
+                }
+            }
+        },
+        {
+            "x": -289,
+            "y": 62,
+            "z": -913,
+            "name": "Portal #14",
+            "pos": [
+                -289,
+                62,
+                -913
+            ],
+            "dim": "end",
+            "desc": "",
+            "opts": {
+                "xaeros_opt": {
+                    "color": "11",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "false"
+                }
+            }
+        },
+        {
+            "x": 538,
+            "y": 0,
+            "z": -1616,
+            "name": "?",
+            "pos": [
+                538,
+                0,
+                -1616
+            ],
+            "dim": "end",
+            "desc": "",
+            "opts": {
+                "xaeros_opt": {
+                    "color": "12",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "false"
+                }
+            }
+        },
+        {
+            "x": -624,
+            "y": 146,
+            "z": -1599,
+            "name": "潜影贝农场",
+            "pos": [
+                -624,
+                146,
+                -1599
+            ],
+            "dim": "end",
+            "desc": "",
+            "opts": {
+                "xaeros_opt": {
+                    "color": "10",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "false"
+                }
+            }
+        },
+        {
+            "x": 91,
+            "y": 75,
+            "z": 29,
+            "name": "Portal #1",
+            "pos": [
+                91,
+                75,
+                29
+            ],
+            "dim": "end",
+            "desc": "",
+            "opts": {
+                "xaeros_opt": {
+                    "color": "11",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "false"
+                }
+            }
+        },
+        {
+            "x": 1430,
+            "y": 70,
+            "z": -794,
+            "name": "Portal",
+            "pos": [
+                1430,
+                70,
+                -794
+            ],
+            "dim": "end",
+            "desc": "",
+            "opts": {
+                "xaeros_opt": {
+                    "color": "11",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "false"
+                }
+            }
+        },
+        {
+            "x": 4493,
+            "y": 70,
+            "z": -9530,
+            "name": "PORTAL",
+            "pos": [
+                4493,
+                70,
+                -9530
+            ],
+            "dim": "end",
+            "desc": "",
+            "opts": {
+                "xaeros_opt": {
+                    "color": "2",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "false"
+                }
+            }
+        },
+        {
+            "x": 3903,
+            "y": 135,
+            "z": -8308,
+            "name": "船",
+            "pos": [
+                3903,
+                135,
+                -8308
+            ],
+            "dim": "end",
+            "desc": "",
+            "opts": {
+                "xaeros_opt": {
+                    "color": "0",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "false"
+                }
+            }
+        },
+        {
+            "x": 382,
+            "y": 128,
+            "z": -1265,
+            "name": "船",
+            "pos": [
+                382,
+                128,
+                -1265
+            ],
+            "dim": "end",
+            "desc": "",
+            "opts": {
+                "xaeros_opt": {
+                    "color": "2",
+                    "disabled": "false",
+                    "type": "0",
+                    "set": "gui.xaero_default",
+                    "rotate_on_tp": "false",
+                    "tp_yaw": "0",
+                    "global": "false"
+                }
+            }
         }
     ]
 }
