@@ -18,6 +18,9 @@ dir = os.path.dirname(__file__)
 
 
 def load_str(raw_str: str, dim: str) -> Waypoint:
+    """
+    Load a waypoint from Xaeros string
+    """
     raw_str = str(raw_str).strip()
     str_list = raw_str.split(":")
     str_list = list(map(lambda x: x.replace("§§", ":"), str_list))
@@ -48,6 +51,9 @@ def load_str(raw_str: str, dim: str) -> Waypoint:
 
 
 def dump_str(waypoint: Waypoint) -> str:
+    """
+    Dump a Waypoint Object into Xaeros string
+    """
     xaeros_opt = {
         "color": "1",
         "disabled": "false",
@@ -63,7 +69,10 @@ def dump_str(waypoint: Waypoint) -> str:
     return f"waypoint:{waypoint.name}:{waypoint.name[0]}:{waypoint.x}:{waypoint.y}:{waypoint.z}:{xaeros_opt['color']}:{xaeros_opt['disabled']}:{xaeros_opt['type']}:{xaeros_opt['set']}:{xaeros_opt['rotate_on_tp']}:{xaeros_opt['tp_yaw']}:{xaeros_opt['global']}"
 
 
-def read_all():
+def read_all() -> dict:
+    """
+    Read from `data/data.json` and Xaeros file in the same directory as `__file__`
+    """
     wplist = []
     with open(os.path.join(dir, "..", "..", "data", "data.json"), "r") as f:
         data = json.loads(f.read())
@@ -74,18 +83,18 @@ def read_all():
             wplist.extend(map(lambda x: load_str(x, dim).__dict__, raw_list))
     data["waypoints"] = list(
         map(lambda x: x.__dict__, join_list(data["waypoints"], wplist)))
-    with open(os.path.join(dir, "data.json"), "w") as f:
-        f.write(json.dumps(data, ensure_ascii=False))
+    return data
 
 
-def write_all():
+def write_all(data: dict):
+    """
+    Write the `data` as the Xaeros format in the `__file__` directory
+    """
     wpdict = {
         "overworld": [],
         "nether": [],
         "end": []
     }
-    with open(os.path.join(dir, "..", "..", "data", "data.json"), "r") as f:
-        data = json.loads(f.read())
     for waypoint in data["waypoints"]:
         wpdict[waypoint["dim"]].append(waypoint)
     build_dir = os.path.join(dir, "..", "..", "build", "Xaerosmap")
@@ -96,4 +105,5 @@ def write_all():
             if not os.path.exists(os.path.join(build_dir, dims[dim])):
                 os.mkdir(os.path.join(build_dir, dims[dim]))
             with open(os.path.join(build_dir, dims[dim], "mw$default_1.txt"), "w") as f:
-                f.write(HEADER + "\n".join(map(lambda x: dump_str(Waypoint(**x)), wpdict[dim])) + "\n")
+                f.write(
+                    HEADER + "\n".join(map(lambda x: dump_str(Waypoint(**x)), wpdict[dim])) + "\n")

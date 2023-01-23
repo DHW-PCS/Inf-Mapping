@@ -29,6 +29,9 @@ class Waypoint:
 
 
 def join_list(wplist1: list, wplist2: list) -> list:
+    """
+    Join 2 waypoint list
+    """
     wpdict = {}
     wplist1.extend(wplist2)
     for waypoint in wplist1:
